@@ -1,2 +1,3 @@
 ---
-install: apache2
+ubuntuwebserver: apache2
+javajre: openjdk-8-jre
