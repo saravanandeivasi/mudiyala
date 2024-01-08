@@ -1,5 +1,5 @@
 ---
-- name: webserver
+- name: install tree
   apt:
    name: "{{installtree}}"
    state: present
