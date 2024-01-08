@@ -13,5 +13,5 @@
    instance_tags:
     Name: ansible_nodes
    register: ec2_info
-- debug:
-    msg: "{{ec2_info}}" 
+# - debug:
+ #   msg: "{{ec2_info}}" 
