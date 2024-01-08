@@ -2,8 +2,8 @@
 - name: Create a new EC2 instance
   ec2:
    key_name: mass
-   aws_access_key: "{{Keyvalue}}"
-   aws_secret_key: "{{seckey}}"
+   aws_access_key: AKIASX7WFWRFLXFACE5J
+   aws_secret_key: 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
    instance_type: "{{type}}"
    image: "{{image}}"
    wait: yes
