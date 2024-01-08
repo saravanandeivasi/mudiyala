@@ -10,8 +10,8 @@
    vpc_subnet_id: subnet-070d6d35334487f68
    assign_public_ip: yes
    region: us-east-1
-   instance_tags:
-    Name: ansible_nodes
-   register: ec2_info
+   #instance_tags:
+    #Name: ansible_nodes
+   #register: ec2_info
 # - debug:
  #   msg: "{{ec2_info}}" 
