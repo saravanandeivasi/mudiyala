@@ -4,5 +4,5 @@
   tasks:
   - name: webserver
     apt:
-     name: apache2
+     name: "{{installtree}}"
      state: present
