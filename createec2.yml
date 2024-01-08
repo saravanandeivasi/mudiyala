@@ -3,7 +3,7 @@
   ec2:
    key_name: mass
    instance_type: t2.micro
-   image: "{{}}"
+   image: "{{image}}"
    wait: yes
    group: launch-wizard-1
    count: 1
