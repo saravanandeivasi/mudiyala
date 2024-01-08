@@ -4,5 +4,5 @@
   tasks:
   - name: webserver
     apt:
-     name: apache2
-     state: absent
+     name: "{{webserver}}"
+     state: present
