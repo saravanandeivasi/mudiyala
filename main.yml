@@ -2,5 +2,6 @@
 - hosts: servers
   become: yes
   tasks:
+  - include_tasks: createec2.yml
   - include_tasks: tree.yml
   - include_tasks: loop.yml

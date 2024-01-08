@@ -1,2 +1,5 @@
 ---
 installtree: tree
+image: ami-05c4733664fbe8d0e
+sgname: launch-wizard-1
+region: us-east-1

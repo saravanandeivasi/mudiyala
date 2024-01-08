@@ -1,0 +1,17 @@
+---
+- name: Create a new EC2 instance
+  ec2:
+   key_name: mass
+   instance_type: t2.micro
+   image: "{{}}"
+   wait: yes
+   group: launch-wizard-1
+   count: 1
+   vpc_subnet_id: subnet-070d6d35334487f68
+   assign_public_ip: yes
+   region: "{{region}}"
+   instance_tags:
+    Name: ansible_nodes
+   register: ec2_info
+- debug:
+    msg: "{{ec2_info}}" 
