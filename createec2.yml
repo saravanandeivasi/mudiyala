@@ -3,13 +3,13 @@
   ec2:
    key_name: mass
    instance_type: t2.micro
-   image: "{{image}}"
+   image: ami-05c4733664fbe8d0e
    wait: yes
-   group: launch-wizard-1
+   group: default
    count: 1
    vpc_subnet_id: subnet-070d6d35334487f68
    assign_public_ip: yes
-   region: "{{region}}"
+   region: us-east-1
    instance_tags:
     Name: ansible_nodes
    register: ec2_info
