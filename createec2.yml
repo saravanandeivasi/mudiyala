@@ -2,7 +2,7 @@
 - name: Create a new EC2 instance
   ec2:
    key_name: mass
-   aws_access_key: "{{keyvalue}}"
+   aws_access_key: "{{Keyvalue}}"
    aws_secret_key: "{{seckey}}"
    instance_type: "{{type}}"
    image: "{{image}}"
