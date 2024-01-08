@@ -1,8 +1,0 @@
----
-- hosts: servers
-  become: yes
-  tasks:
-  - name: webserver
-    apt:
-     name: "{{installtree}}"
-     state: present

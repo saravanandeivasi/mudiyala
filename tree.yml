@@ -1,0 +1,5 @@
+---
+- name: webserver
+  apt:
+   name: "{{installtree}}"
+   state: present
