@@ -1,8 +1,8 @@
 ---
-- hosts: localhost
+- hosts: web
   become: yes
   tasks:
   - name: webserver
     apt:
-     name: "{{webserverinstall}}"
+     name: "{{apacheinstall}}"
      state: present
