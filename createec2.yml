@@ -2,8 +2,8 @@
 - name: Create a new EC2 instance
   ec2:
    key_name: mass
-   aws_access_key: AKIASX7WFWRFLXFACE5J
-   aws_secret_key: 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
+   aws_access_key: AKIASX7WFWRFNJR2ST5S
+   aws_secret_key: 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
    instance_type: t2.micro
    image: ami-05c4733664fbe8d0e
    wait: yes
